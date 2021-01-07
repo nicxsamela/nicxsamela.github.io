@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+@font-face {
+    font-family: 'myfont';
+     src: url('https://cdn.shopify.com/s/files/1/0479/4295/9264/files/myfont.ttf?v=1609790836') format('truetype'),
+          url('https://https://cdn.shopify.com/s/files/1/0479/4295/9264/files/Bugaki-Regular.otf?v=1609790836') format('opentype'),
+          url('myfont.otf') format('opentype'),
+          url('myfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+ 	margin: 0;
+ 	text-align: center;
+    background-color: #004643;
+    font-family: 'myfont';
+    color:#f9bc60;
+    letter-spacing: 0.2em;
+    font-size: 24px;
+    padding: 20px; 
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+	line-height: 1.5em; 
+	background: #f2f7f5;
+}
+
+h2 {
+    color: #faae2b;
+    font-family: 'myfont';
+}
+
+h3 {
+	color: #00473e;
+	font-size: 24px;
+	letter-spacing: .5px;
+}
+
+nav {
+	background: pink;
+	width: 100%;
+	padding: 1em 1.5em;
+	text-align: center;
+}
+
+section, aside {
+	margin-top: 0;
+	margin-bottom:0;
+	margin-left: 10%;
+  margin-right:10%;
+} 
+
+ #Categories {
+ 	display: grid;
+ }
+
+ .grid-container {
+ 	display: grid;
+  	grid-template-columns: auto auto auto;
+ 	padding: 10px;
+}
+ 
+a {
+  color: green;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 10px;
+}
+
+a:hover {
+  color: #475d5b;
+}
+
+a:active {
+  color: #475d5b;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+#main-footer{
+     text-align:center;
+      font-size:18px;
+      background-color: #004643;
+      color:#f9bc60;
+      padding: 20px;
+}
+
